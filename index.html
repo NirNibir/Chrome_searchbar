@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome_searchbar</title>
+    <style>
+div input{
+    font-weight:normal;
+    margin: auto;
+    border: none;
+    height: 34px;
+    width: 400px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+    border: none;
+    outline: 0;
+    overflow-x: hidden;
+    resize: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    word-wrap: break-word;
+}
+div{
+    height: 49px;
+    width: 550px;
+    margin: auto;
+    margin-top:25%;
+    background: white;
+    display:flex;
+    border-radius: 39px;
+    padding-right: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+div:hover{
+transform: scale(1.01);
+background-color: rgba(0, 0, 0, 0.08);
+box-shadow: 0 .2rem .3rem rgba(0, 0, 0, 0.2);
+}
+
+    
+
+.search{
+    width: 45px;
+    height: inherit; 
+   
+}
+.camera{
+    height: inherit;
+    border-radius: 23px;
+    height: 40px;
+    margin-top: 5px;
+}
+.voice{
+    height: inherit;
+    border-radius: 23px;
+    height: 40px;
+    margin-top: 5px;
+}
+@media screen and (max-width:900px) {
+    div{
+        margin-top: 200px;
+        width: 96%;
+       
+       }
+}
+@media screen and (max-width:900px) {
+    div input{
+        font-size:11.6px;
+    }
+}
+@media screen and (max-width:900px) {
+     .voice{
+        height: 30px;
+        margin-top: 8px;
+     }
+    }
+@media screen and (max-width:900px) {
+     .camera{
+        height: 30px;
+        margin-top: 8px;
+     }
+    }
+    </style>
+</head>
+<body>
+   
+    <div>
+        <img class="search" src="https://th.bing.com/th/id/R.807df2b0768831fb5778edff56fe26d7?rik=B%2bgn%2f1EIXRODjA&pid=ImgRaw&r=0" alt="Search logo">
+        <input type="text" name="text" placeholder="      Search Google or type a URL" autofocus="1">
+        <img class="voice" src="Google-Mic-Icon.svg" alt="voice logo">
+        <img class="camera" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png" alt="lance">
+    </div>
+</body>
+</html>
+
